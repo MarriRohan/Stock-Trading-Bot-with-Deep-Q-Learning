@@ -1,0 +1,13 @@
+max_capital: 100000
+daily_loss_limit: 0.02 # 2% of capital
+drawdown_limit: 0.15 # 15%
+risk_per_trade: 0.01 # 1% per trade
+sl_grid: [0.5, 0.75, 1.0] # multiples of ATR
+tp_grid: [1.0, 1.5, 2.0]
+trailing_grid: [0.5, 0.75, 1.0]
+learning_rate: 0.0005
+gamma: 0.99
+batch_size: 64
+replay_size: 50000
+train_start: 1000
+episodes: 100
